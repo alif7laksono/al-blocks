@@ -11,11 +11,31 @@ type SocialMediaLink = {
 
 export default function Newsletter() {
   const socialMediaLinks: SocialMediaLink[] = [
-    { platform: "Facebook", icon: <Facebook className="h-4 w-4 md:w-6 md:h-6"  />, url: "#" },
-    { platform: "Instagram", icon: <Instagram className="h-4 w-4 md:w-6 md:h-6"  />, url: "#" },
-    { platform: "Twitter", icon: <Twitter className="h-4 w-4 md:w-6 md:h-6"  />, url: "#" },
-    { platform: "Linkedin", icon: <Linkedin className="h-4 w-4 md:w-6 md:h-6"  />, url: "#" },
-    { platform: "Github", icon: <Github className="h-4 w-4 md:w-6 md:h-6"  />, url: "#" },
+    {
+      platform: "Facebook",
+      icon: <Facebook className="h-4 w-4 md:w-6 md:h-6" />,
+      url: "#",
+    },
+    {
+      platform: "Instagram",
+      icon: <Instagram className="h-4 w-4 md:w-6 md:h-6" />,
+      url: "#",
+    },
+    {
+      platform: "Twitter",
+      icon: <Twitter className="h-4 w-4 md:w-6 md:h-6" />,
+      url: "#",
+    },
+    {
+      platform: "Linkedin",
+      icon: <Linkedin className="h-4 w-4 md:w-6 md:h-6" />,
+      url: "#",
+    },
+    {
+      platform: "Github",
+      icon: <Github className="h-4 w-4 md:w-6 md:h-6" />,
+      url: "https://github.com/alif7laksono/shadcn-ui-nextjs-components",
+    },
   ];
 
   return (
@@ -42,7 +62,12 @@ export default function Newsletter() {
       {/* Social Media Section */}
       <div className="mt-6 flex flex-row md:flex-row items-center justify-center mx-auto gap-4 max-w-xl text-zinc-700 dark:text-zinc-300">
         {socialMediaLinks.map(({ platform, icon, url }) => (
-          <a key={platform} href={url} aria-label={platform} className="hover:text-zinc-900 dark:hover:text-zinc-50">
+          <a
+            key={platform}
+            href={url}
+            aria-label={platform}
+            className="hover:text-zinc-900 dark:hover:text-zinc-50"
+          >
             {icon}
           </a>
         ))}

@@ -40,7 +40,7 @@ export default function Stats() {
   return (
     <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col text-center justify-center items-center mx-auto">
-        <Badge>Stats</Badge>
+        <Badge>Stats 1</Badge>
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-2 lg:mt-4">
           Performance Overview
         </h1>

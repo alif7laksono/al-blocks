@@ -33,7 +33,7 @@ export default function Footer() {
           <small className="text-zinc-600 dark:text-zinc-400 text-sm font-medium leading-none">
             Developed by{" "}
             <a
-              href="https://www.aliflaksono.site"
+              href="https://github.com/alif7laksono"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 dark:text-blue-400 hover:underline"

@@ -42,7 +42,7 @@ export default function Stats2() {
       <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8 max-w-6xl mx-auto">
         {/* Left Side */}
         <div className="lg:w-1/3 flex flex-col text-center lg:text-left justify-center items-center lg:items-start">
-          <Badge>Stats</Badge>
+          <Badge>Stats 2</Badge>
           <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-2 lg:mt-4">
             Performance Overview
           </h1>

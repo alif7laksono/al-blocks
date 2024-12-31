@@ -50,7 +50,7 @@ export default function Faq2() {
     <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8 max-w-6xl mx-auto">
         <div className="lg:w-1/3 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-          <Badge>Faq</Badge>
+          <Badge>Faqs 2</Badge>
           <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-zinc-950 dark:text-zinc-50 mt-4 lg:mt-6">
             Frequently Asked Questions
           </h1>

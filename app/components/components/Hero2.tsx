@@ -10,7 +10,7 @@ export default function Hero2() {
       <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto">
         {/* Left Side */}
         <div className="lg:max-w-xl text-center lg:text-left">
-          <Badge>Hero Section</Badge>
+          <Badge>Hero Section 2</Badge>
           <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mt-2 lg:mt-4 text-zinc-950 dark:text-zinc-50">
             Empowering Your Vision
           </h1>

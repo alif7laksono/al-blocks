@@ -15,13 +15,17 @@ export default function Hero() {
           Create stunning web interfaces with ready-to-use components.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <Link href="/components" target="_blank" rel="noopener noreferrer">
+          <Link href="/components" rel="noopener noreferrer">
             <Button variant="outline">
               <FileCode />
               <span>Browse Components</span>
             </Button>
           </Link>
-          <Link href="#" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://github.com/alif7laksono/shadcn-ui-nextjs-components"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button variant="default">
               <Github />
               <span>Github</span>
