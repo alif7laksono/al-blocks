@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Contact() {
   return (
-    <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
+    <div id="contact" className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col text-center justify-center items-center">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-gray-800 dark:text-gray-100">
           Contact Us

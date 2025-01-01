@@ -42,7 +42,7 @@ const pricingPlans: PricingPlan[] = [
 
 export default function Pricing() {
   return (
-    <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
+    <div id="pricing" className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="mx-auto max-w-6xl">
         <div className="flex flex-col text-center justify-center items-center">
           <Badge>Pricing</Badge>

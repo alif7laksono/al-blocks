@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Features() {
   return (
-    <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
+    <div id="feature1" className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8 max-w-6xl mx-auto">
         {/* Left Side */}
         <div className=" lg:w-1/2">

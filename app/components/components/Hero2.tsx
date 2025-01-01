@@ -6,7 +6,7 @@ import { Mail, PhoneCall } from "lucide-react";
 
 export default function Hero2() {
   return (
-    <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
+    <div id="hero2" className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto">
         {/* Left Side */}
         <div className="lg:max-w-xl text-center lg:text-left">

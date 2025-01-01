@@ -38,7 +38,7 @@ const stats: Stat[] = [
 
 export default function Stats2() {
   return (
-    <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
+    <div id="stats2" className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8 max-w-6xl mx-auto">
         {/* Left Side */}
         <div className="lg:w-1/3 flex flex-col text-center lg:text-left justify-center items-center lg:items-start">

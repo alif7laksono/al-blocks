@@ -49,7 +49,7 @@ const faqs: FaqItem[] = [
 export default function Faq() {
 
   return (
-    <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
+    <div id="faq1" className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col text-center justify-center items-center">
         <Badge>Faqs 1</Badge>
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-zinc-950 dark:text-zinc-50 mt-4 lg:mt-6">

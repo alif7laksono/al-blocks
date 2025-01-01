@@ -8,7 +8,16 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Link from "next/link";
+import { AlignJustify } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export default function Navbar() {
   const { setTheme } = useTheme();
@@ -23,7 +32,7 @@ export default function Navbar() {
           </span>
         </div>
         {/* Navigation Links */}
-        <div className="flex justify-center gap-2">
+        <div className="flex justify-center items-center gap-2">
           <Link href="/components">
             <Button variant="default">Browse Components</Button>
           </Link>
@@ -47,6 +56,59 @@ export default function Navbar() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="outline" size="icon">
+                <AlignJustify />
+              </Button>
+            </SheetTrigger>
+            <SheetContent>
+              <SheetHeader>
+                <SheetTitle>Component List</SheetTitle>
+              </SheetHeader>
+              <div className="grid gap-4 py-4">
+                <ul className="my-6 ml-6 list-[square] [&>li]:mt-2">
+                  <li>
+                    <a href="#hero1">Hero 1</a>
+                  </li>
+                  <li>
+                    <a href="#hero2">Hero 2</a>
+                  </li>{" "}
+                  <li>
+                    <a href="#stats1">Stats1</a>
+                  </li>{" "}
+                  <li>
+                    <a href="#stats2">Stats2</a>
+                  </li>{" "}
+                  <li>
+                    <a href="#feature1">Feature 1</a>
+                  </li>
+                  <li>
+                    <a href="#faq1">Faq 1</a>
+                  </li>
+                  <li>
+                    <a href="#faq2">Faq 2</a>
+                  </li>
+                  <li>
+                    <a href="#testimonials">Testimonials</a>
+                  </li>
+                  <li>
+                    <a href="#pricing">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#newsletter">Newsletter</a>
+                  </li>
+                  <li>
+                    <a href="#footer1">Footer</a>
+                  </li>
+                </ul>
+              </div>
+              <SheetFooter></SheetFooter>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </nav>

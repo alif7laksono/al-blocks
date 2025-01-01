@@ -6,7 +6,7 @@ import { Mail, PhoneCall } from "lucide-react";
 
 export default function Hero() {
   return (
-    <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
+    <div id="hero1" className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col text-center justify-center items-center">
         <div className="max-w-3xl">
           <Badge>Hero Section 1</Badge>

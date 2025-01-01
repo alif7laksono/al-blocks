@@ -47,7 +47,7 @@ const faqs: FaqItem[] = [
 
 export default function Faq2() {
   return (
-    <div className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
+    <div id="faq2" className="p-6 lg:p-12 bg-zinc-50 dark:bg-zinc-950 rounded-lg">
       <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8 max-w-6xl mx-auto">
         <div className="lg:w-1/3 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
           <Badge>Faqs 2</Badge>
