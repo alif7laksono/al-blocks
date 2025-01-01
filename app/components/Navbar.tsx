@@ -1,5 +1,5 @@
 import React from "react";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, Github, Coffee } from "lucide-react";
 import { useTheme } from "next-themes";
 import {
   DropdownMenu,
@@ -93,7 +93,28 @@ export default function Navbar() {
                   ))}
                 </ul>
               </div>
-              <SheetFooter></SheetFooter>
+              <SheetFooter>
+                <Link
+                  href="https://buymeacoffee.com/alif7laksoj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="outline">
+                    <Coffee />
+                    <span>Buy Me A Coffe</span>
+                  </Button>
+                </Link>
+                <Link
+                  href="https://github.com/alif7laksono/shadcn-ui-nextjs-components"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="default">
+                    <Github />
+                    <span>Github Repo</span>
+                  </Button>
+                </Link>
+              </SheetFooter>
             </SheetContent>
           </Sheet>
         </div>
