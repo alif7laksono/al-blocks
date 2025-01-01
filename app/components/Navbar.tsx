@@ -33,9 +33,6 @@ export default function Navbar() {
         </div>
         {/* Navigation Links */}
         <div className="flex justify-center items-center gap-2">
-          <Link href="/components">
-            <Button variant="default">Browse Components</Button>
-          </Link>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon">
