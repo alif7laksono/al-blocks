@@ -19,6 +19,27 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
+type NavItem = {
+  id: string;
+  label: string;
+  href: string;
+};
+
+const navItem: NavItem[] = [
+  { id: "hero1", label: "Hero 1", href: "#hero1" },
+  { id: "hero2", label: "Hero 2", href: "#hero2" },
+  { id: "stats1", label: "Stats 1", href: "#stats1" },
+  { id: "stats2", label: "Stats 2", href: "#stats2" },
+  { id: "feature1", label: "Feature 1", href: "#feature1" },
+  { id: "faq1", label: "FAQ 1", href: "#faq1" },
+  { id: "faq2", label: "FAQ 2", href: "#faq2" },
+  { id: "testimonials", label: "Testimonials", href: "#testimonials" },
+  { id: "pricing", label: "Pricing", href: "#pricing" },
+  { id: "contact", label: "Contact Us", href: "#contact" },
+  { id: "newsletter", label: "Newsletter", href: "#newsletter" },
+  { id: "footer1", label: "Footer", href: "#footer1" },
+];
+
 export default function Navbar() {
   const { setTheme } = useTheme();
 
@@ -65,42 +86,11 @@ export default function Navbar() {
               </SheetHeader>
               <div className="grid gap-4 py-4">
                 <ul className="my-6 ml-6 list-[square] [&>li]:mt-2">
-                  <li>
-                    <a href="#hero1">Hero 1</a>
-                  </li>
-                  <li>
-                    <a href="#hero2">Hero 2</a>
-                  </li>{" "}
-                  <li>
-                    <a href="#stats1">Stats1</a>
-                  </li>{" "}
-                  <li>
-                    <a href="#stats2">Stats2</a>
-                  </li>{" "}
-                  <li>
-                    <a href="#feature1">Feature 1</a>
-                  </li>
-                  <li>
-                    <a href="#faq1">Faq 1</a>
-                  </li>
-                  <li>
-                    <a href="#faq2">Faq 2</a>
-                  </li>
-                  <li>
-                    <a href="#testimonials">Testimonials</a>
-                  </li>
-                  <li>
-                    <a href="#pricing">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="#newsletter">Newsletter</a>
-                  </li>
-                  <li>
-                    <a href="#footer1">Footer</a>
-                  </li>
+                  {navItem.map((item) => (
+                    <li key={item.id}>
+                      <a href={item.href}>{item.label}</a>
+                    </li>
+                  ))}
                 </ul>
               </div>
               <SheetFooter></SheetFooter>

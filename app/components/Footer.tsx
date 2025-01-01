@@ -10,17 +10,17 @@ type FooterLink = {
 const footerLinks: FooterLink[] = [
   {
     href: "https://github.com/alif7laksono",
-    icon: <Github className="h-6 w-6" />,
+    icon: <Github className="h-4 w-4 lg:h-6 lg:w-6" />,
     label: "GitHub",
   },
   {
     href: "mailto:alif7laksono@gmail.com",
-    icon: <Mail className="h-6 w-6" />,
+    icon: <Mail className="h-4 w-4 lg:h-6 lg:w-6" />,
     label: "Email",
   },
   {
     href: "https://buymeacoffee.com/alif7laksoj",
-    icon: <Coffee className="h-6 w-6" />,
+    icon: <Coffee className="h-4 w-4 lg:h-6 lg:w-6" />,
     label: "Buy Me a Coffee",
   },
 ];
@@ -41,7 +41,7 @@ export default function Footer() {
               aliflaksono
             </a>
           </small>
-          <div className="flex gap-6">
+          <div className="flex gap-3 lg:gap-6">
             {footerLinks.map((link) => (
               <a
                 key={link.label}
