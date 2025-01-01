@@ -13,7 +13,7 @@ A collection of reusable components built with ShadCN UI, Next.js, and TypeScrip
 - Fully responsive and customizable
 
 ## Demo
-[Live Demo](#) (https://shadcn-ui-nextjs-components.vercel.app/)
+[Live Demo](https://shadcn-ui-nextjs-components.vercel.app/) (https://shadcn-ui-nextjs-components.vercel.app/)
 
 ## Components Included
 - Hero  
