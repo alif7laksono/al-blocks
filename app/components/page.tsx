@@ -1,7 +1,6 @@
 // app/components/page.tsx
 "use client"
 import React from "react";
-// import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Hero2 from "./components/Hero2";
 import Faq from "./components/Faq";
@@ -21,7 +20,6 @@ export default function page() {
   return (
     <div className="bg-zinc-50 dark:bg-zinc-950">
       <Navbar />
-      {/* <Header /> */}
       <Hero />
       <Hero2 />
       <Stats />
