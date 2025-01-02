@@ -1,5 +1,5 @@
 // app/components/page.tsx
-"use client"
+"use client";
 import React from "react";
 import Hero from "./components/Hero";
 import Hero2 from "./components/Hero2";
@@ -14,7 +14,8 @@ import Stats2 from "./components/Stats2";
 import Features from "./components/Features";
 import Newsletter from "./components/Newsletter";
 import Navbar from "./Navbar";
-import Footer2 from "./Footer"
+import Footer2 from "./Footer";
+import Hero3 from "./components/Hero3";
 
 export default function page() {
   return (
@@ -22,6 +23,7 @@ export default function page() {
       <Navbar />
       <Hero />
       <Hero2 />
+      <Hero3 />
       <Stats />
       <Stats2 />
       <Features />
