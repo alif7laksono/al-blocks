@@ -1,12 +1,12 @@
 import React from "react";
 import { Moon, Sun, Github, Coffee } from "lucide-react";
 import { useTheme } from "next-themes";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+// import {
+//   DropdownMenu,
+//   DropdownMenuContent,
+//   DropdownMenuItem,
+//   DropdownMenuTrigger,
+// } from "@/components/ui/dropdown-menu";
 import Link from "next/link";
 import { AlignJustify } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -18,6 +18,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+// import { Toggle } from "@/components/ui/toggle";
 
 type NavItem = {
   id: string;
@@ -42,7 +43,7 @@ const navItem: NavItem[] = [
 ];
 
 export default function Navbar() {
-  const { setTheme } = useTheme();
+  const { setTheme, theme } = useTheme();
 
   return (
     <nav className="sticky top-0 bg-zinc-50 dark:bg-zinc-950 z-10">
@@ -55,7 +56,7 @@ export default function Navbar() {
         </div>
         {/* Navigation Links */}
         <div className="flex justify-center items-center gap-2">
-          <DropdownMenu>
+          {/* <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon">
                 <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
@@ -74,7 +75,16 @@ export default function Navbar() {
                 System
               </DropdownMenuItem>
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu> */}
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          >
+            <Sun className="h-[1.5rem] w-[1.3rem] dark:hidden" />
+            <Moon className="hidden h-5 w-5 dark:block" />
+            <span className="sr-only">Toggle theme</span>
+          </Button>
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="outline" size="icon">
