@@ -37,6 +37,7 @@ const navItem: NavItem[] = [
   { id: "faq2", label: "FAQ 2", href: "#faq2" },
   { id: "testimonials", label: "Testimonials", href: "#testimonials" },
   { id: "pricing", label: "Pricing", href: "#pricing" },
+  { id: "card", label: "Card", href: "#card" },
   { id: "contact", label: "Contact Us", href: "#contact" },
   { id: "newsletter", label: "Newsletter", href: "#newsletter" },
   { id: "footer1", label: "Footer", href: "#footer1" },

@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import Pricing from "./components/Pricing";
+import Cards from "./components/Cards";
 import Stats from "./components/Stats";
 import Stats2 from "./components/Stats2";
 import Features from "./components/Features";
@@ -31,6 +32,7 @@ export default function page() {
       <Faq2 />
       <Testimonials />
       <Pricing />
+      <Cards />
       <Contact />
       <Newsletter />
       <Footer />
