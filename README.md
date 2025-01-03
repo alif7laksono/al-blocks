@@ -41,8 +41,8 @@ A collection of reusable components built with ShadCN UI, Next.js, and TypeScrip
   [Link to Testimonials](https://github.com/alif7laksono/al-blocks/blob/main/app/components/components/Testimonials.tsx)
 - Pricing  
   [Link to Pricing](https://github.com/alif7laksono/al-blocks/blob/main/app/components/components/Pricing.tsx)
-  - Card  
-    [Link to Pricing](https://github.com/alif7laksono/al-blocks/blob/main/app/components/components/Cards.tsx)
+- Card  
+  [Link to Pricing](https://github.com/alif7laksono/al-blocks/blob/main/app/components/components/Cards.tsx)
 - Stats  
   [Link to Stats](https://github.com/alif7laksono/al-blocks/blob/main/app/components/components/Stats.tsx)
 - Stats2  
@@ -94,7 +94,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Support My Work
 
-If you find this project helpful and want to support my work, you can buy me a coffee!  
-[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/alif7laksono)
+If you find this project helpful and want to support my work, you can buy me a coffee!
+
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/alif7laksoj)
 
 > > > > > > > 40785ee (Initial commit from Create Next App)
