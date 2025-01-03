@@ -20,6 +20,8 @@ A collection of reusable components built with ShadCN UI, Next.js, and TypeScrip
   [Link to Hero](https://github.com/alif7laksono/shadcn-ui-nextjs-components/blob/main/app/components/components/Hero.tsx)
 - Hero2  
   [Link to Hero2](https://github.com/alif7laksono/shadcn-ui-nextjs-components/blob/main/app/components/components/Hero2.tsx)
+- Hero3  
+  [Link to Hero3](https://github.com/alif7laksono/shadcn-ui-nextjs-components/blob/main/app/components/components/Hero3.tsx)
 - Faq  
   [Link to Faq](https://github.com/alif7laksono/shadcn-ui-nextjs-components/blob/main/app/components/components/Faq.tsx)
 - Faq2  
