@@ -1,15 +1,14 @@
-import type { MetadataRoute } from "next";
+// app/robots.ts
+export function GET() {
+  const content = `
+User-agent: *
+Allow: /
 
-export default function robots(): MetadataRoute.Robots {
-  return {
-    rules: [
-      {
-        userAgent: "*",
-        allow: "/", 
-        disallow: ["/private/", "/api/"],
-      },
-    ],
-    sitemap: "https://shadcn-ui-nextjs-components.vercel.app//sitemap.xml",
-    host: "https://shadcn-ui-nextjs-components.vercel.app/",
-  };
+Sitemap: https://shadcn-ui-nextjs-components.vercel.app//sitemap.xml
+  `;
+  return new Response(content, {
+    headers: {
+      "Content-Type": "text/plain",
+    },
+  });
 }
