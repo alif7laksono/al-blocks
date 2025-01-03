@@ -11,6 +11,7 @@ A collection of reusable components built with ShadCN UI, Next.js, and TypeScrip
 - Contact Forms
 - Newsletters
 - Fully responsive and customizable
+- Dark and Light Theme
 
 ## Demo
 [Live Demo](https://shadcn-ui-nextjs-components.vercel.app/) (https://shadcn-ui-nextjs-components.vercel.app/)
