@@ -4,7 +4,7 @@ export function GET() {
 User-agent: *
 Allow: /
 
-Sitemap: https://shadcn-ui-nextjs-components.vercel.app//sitemap.xml
+Sitemap: https://shadcn-ui-nextjs-components.vercel.app/sitemap.xml
   `;
   return new Response(content, {
     headers: {
