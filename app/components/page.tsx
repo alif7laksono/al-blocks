@@ -17,7 +17,6 @@ import Newsletter from "./components/Newsletter";
 import Navbar from "./Navbar";
 import Footer2 from "./Footer";
 import Hero3 from "./components/Hero3";
-import { generateDynamicMetadata } from "../config";
 
 export default function page() {
   return (
@@ -39,13 +38,5 @@ export default function page() {
       <Footer />
       <Footer2 />
     </div>
-  );
-}
-
-export async function generateMetadata() {
-  return generateDynamicMetadata(
-    "Free Reusable ShadcnUI Components",
-    "Explore free reusable ShadcnUI components.",
-    "https://example.com/components"
   );
 }
